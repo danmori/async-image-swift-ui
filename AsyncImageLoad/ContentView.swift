@@ -17,13 +17,13 @@ extension Image {
         self
             .imageModifier()
             .frame(minWidth: 120)
-            .foregroundColor(.purple)
+            .foregroundColor(.teal)
             .opacity(0.5)
     }
 }
 
 struct ContentView: View {
-    private let imageURL: String = "https://credo.academy/credo-academy@3x.png"
+    private let imageURL: String = "https://developer.apple.com/assets/elements/icons/swiftui/swiftui-96x96_2x.png"
     
     var body: some View {
         
